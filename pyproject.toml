@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling >= 1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qjobslib"
+version = "0.1.0"
+authors = [
+    { name = "QuatschVirus" }
+]
+description = "A library for reporting reporting job progress"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+requires-python = ">= 3.9"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
